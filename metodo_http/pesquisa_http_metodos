@@ -1,0 +1,15 @@
+Método HTTP 200(201, 202), 400(404, 405) e 500:
+
+200: O método HTTP 200 é a resposta de status que indica que a requisição deu certo, ou seja, obteve sucesso, porém o "dar certo" da requisição, vai depender do método HTTP;
+
+201: O método HTTP 201 é basicamente a mesma coisa do método 200, porém além de indicar que a requisição deu certo, ele também mostra que um recurso novo foi criado;
+
+202: O método HTTP 202, até indica que a requisição foi recebida, porém, contudo, entretanto, todavia, não obtante e assim vai ksksksksksksks, não pode atuar ainda, pois ela não tem compromisso, ou seja, que não tem como ela eviar posteriormente uma resposta assíncrona indicando a saída do processamento da requisição no HTTP;
+
+400: O método HTTP 400 mostra que o servidor não consegue ou não vai processsar a requisição devido a algum erro  do cliente ou pelo menos que foi conhecida como erro;
+
+404: O método HTTP 404 é a resposta de erro, que mostra que o servidor não consegue ou não conseguiu encontrar o recurso pedido, geralmente esses links te levam para a página 404, que é pra onde vão os links quebrados ou desativados, essa página também é conhecida com link rot;
+
+405: O método 405 é a resposta que indica que, o verbo HTTP usado não pode ser suportado. Um exemplo é quando a requisição ocorre da forma get, contudo, só existe um método aceito, que é o post;
+
+500: O método 500 é quando o servidor mostra que ele achou uma condição totalmente inesperada, por isso impediu que a solicitação fosse aceita.
